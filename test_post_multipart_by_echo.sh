@@ -1,0 +1,1 @@
+{ echo -e "POST /upload/ HTTP/1.1\r\nHost: 127.0.0.1:3000\r\nContent-Length: 142\r\nContent-Type: multipart/form-data; boundary=abcd\r\n\r\n--abcd\r\nContent-Disposition: form-data; name=\"input_file\"; filename=\"TestFile.log\"\r\nContent-Type: text/x-log\r\n\r\ntest\r\n--abcd--\r\n"; sleep 1; } | nc 127.0.0.1 3000
