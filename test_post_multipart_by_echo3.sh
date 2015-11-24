@@ -1,7 +1,7 @@
 {
     echo -e "POST /upload/ HTTP/1.1\r";
     echo -e "Host: 127.0.0.1:3000\r";
-    echo -e "Content-Length: 144\r";
+    echo -e "Content-Length: 128\r";
     echo -e "Content-Type: multipart/form-data; boundary=abcd\r";
     echo -e "\r";
     echo -e "--abcd\r";
