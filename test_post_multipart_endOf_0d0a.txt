@@ -1,0 +1,20 @@
+POST /upload/ HTTP/1.1
+Host: 127.0.0.1:3000
+Connection: keep-alive
+Content-Length: 319
+Origin: chrome-extension://cokgbflfommojglbmbpenpphppikmonn
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryMJmmmWIf5AjJB7OW
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-TW,zh;q=0.8,en-US;q=0.6,en;q=0.4,zh-CN;q=0.2
+Cookie: JSESSIONID.70f0a254=d1v995r94f62xu3u5wsxmvhl; screenResolution=1920x1080; JSESSIONID=CD914A45C6638F21D2459C2031155F76; _ga=GA1.4.1340553511.1441363662; sessionid=8AA48F44EF08B1ADA2849E15E8053F21; loggedin=200
+
+------WebKitFormBoundaryMJmmmWIf5AjJB7OW
+Content-Disposition: form-data; name="input_file"; filename="TestFile.log"
+Content-Type: text/x-log
+
+line1line1line1line1line1line1line1line1line1line1line1line1line1line1line1line1line1line1line1line1line1line1line1line1line1
+
+
+------WebKitFormBoundaryMJmmmWIf5AjJB7OW--
